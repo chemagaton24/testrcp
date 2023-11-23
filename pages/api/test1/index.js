@@ -13,7 +13,7 @@ const handler = async (req, res) => {
       }
     );
     const dataHTML = await response.text();
-    res.status(201).send({ success: true, message: "success!", dataHTML });
+    res.status(201).send(dataHTML);
   } catch (err) {
     res.status(500).send({ success: false, message: err.message });
   }

@@ -18,14 +18,6 @@ const handler = async (req, res) => {
     res.status(500).send({ success: false, message: err.message });
   }
 
-  // const response = await fetch(
-  //   "https://realclearpolitics.us7.list-manage.com/subscribe/post",
-  //   {
-  //     method: "POST",
-  //     body: formData,
-  //   }
-  // );
-
   // await axios.get("http://minhaserieapi.herokuapp.com/search/vikings");
 
   // await axios.post(
